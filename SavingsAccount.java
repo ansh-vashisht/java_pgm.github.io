@@ -1,6 +1,6 @@
 package lab1;
 
-public class SavingsAccount {
+class SavingsAccount {
     static double annualInterestRate;
     private double savingsBalance;
 
@@ -20,6 +20,8 @@ public class SavingsAccount {
     public double getSavingsBalance() {
         return savingsBalance;
     }
+}
+public class SavingsAccountTest{
     public static void main(String[] args) {
         SavingsAccount ob1 = new SavingsAccount(2000.00);
         SavingsAccount ob2 = new SavingsAccount(3000.00);
